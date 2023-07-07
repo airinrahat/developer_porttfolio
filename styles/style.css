@@ -1,0 +1,45 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Scheherazade New', serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.primary-btn{
+    
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    padding: 15px 35px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* nav start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+   list-style: none;
+   margin-right: 50px;
+}
+nav a{
+ color: #474747;
+    text-decoration: none;
+}
