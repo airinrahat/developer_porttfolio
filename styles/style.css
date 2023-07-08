@@ -49,22 +49,25 @@ nav a{
 /* header section start */
 .header{
     background-color: #FFF8F3;
-    background-image: url( '../images/header_bg.png');
+    background-image: url( '../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    /* background-size: 59px 700px;  */
 
 }
 .banner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 30px 0px 150px;
-    background-image: url('../images/developer.png');
+    /* background-image: url('../images/developer.png');
+
     /* z-index: 10; */
-    background-repeat: no-repeat;
-    background-position: 30px -160px;
+    /* background-repeat: no-repeat;
+    background-position: 30px -160px; */
     /* background-size: 200px 40px; */
-z-index: -1;
+   
+/* z-index: -1; */
 }
 .banner-title h4{
     color: #474747;
@@ -106,7 +109,7 @@ main{
 .about{
     border-radius: 10px;
 background: #FFF8F3;
-margin: 130px 230px;
+margin: 89px 230px;
 text-align: center;
 
 }
@@ -131,4 +134,86 @@ font-weight: 400;
     justify-content: space-around;
     text-align: center;
     padding: 0px 15px 65px 15px;
+}
+.experience{
+    text-align: center;
+}
+ .section-title{
+    color: #181818;
+    font-size: 35px;
+
+font-weight: 700;
+text-align: center;
+}
+.experience p{
+    color: #757575;
+    font-size: 18px;
+font-weight: 400;
+}
+.skills{
+    display: flex;
+    padding: 30px;
+    gap: 24px;
+  
+
+}
+.js{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    padding: 30px 30px;
+}
+/* .skills p{
+   
+} */
+.resume-colom-title{
+    color: var(--dark-02, #474747);
+
+font-size: 30px;
+font-weight: 700;
+
+
+}
+.resume-title{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+
+font-weight: 700;
+    
+}
+.resume-section{
+    display: flex;
+    gap: 50px;
+    margin-left: 69px;
+    align-items: center;
+}
+.primary-title{
+    color: #474747;
+    font-size: 30px;
+
+font-weight: 700;
+}
+.primary-sub{
+    color: #474747;
+    font-size: 20px;
+
+font-weight: 700;
+}
+.primary-place{
+    color: #757575;
+    font-size: 20px;
+
+font-weight: 600;
+}
+.pragraph{
+    font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: #474747;
+}
+.cv-btn{
+   margin-top: 63px;
+   margin-left: 491px;
 }
